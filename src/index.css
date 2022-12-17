@@ -10,3 +10,8 @@
   -webkit-tap-highlight-color: transparent;
   font-family: 'Josefin Sans', sans-serif;
 }
+a{
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+}
