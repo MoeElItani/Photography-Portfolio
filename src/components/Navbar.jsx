@@ -62,7 +62,7 @@ const Navbar = () => {
                   <li>
                      <a
                         href='/call'
-                        class='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-black transition duration-200 rounded shadow-md bg-[#eee] hover:bg-[#ccc] focus:shadow-outline focus:outline-none'
+                        class='inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-[#1F2022] transition duration-200 rounded shadow-md bg-[#eee] hover:bg-[#ccc] focus:shadow-outline focus:outline-none'
                         aria-label='Schedule a call'
                         title='Schedule a call'
                      >
@@ -98,7 +98,7 @@ const Navbar = () => {
                      </svg>
                   </button>
                   {isMenuOpen && (
-                     <div class='absolute top-9 left-0 w-full'>
+                     <div class='z-50 absolute top-9 left-0 w-full'>
                         <div class='p-5 bg-[#1F2022] border rounded shadow-lg'>
                            <div class='flex items-center justify-between mb-4'></div>
                            <nav>
@@ -146,7 +146,7 @@ const Navbar = () => {
                                  <li>
                                     <a
                                        href='/call'
-                                       class='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-black bg-[#eee] md:hover:bg-[#ccc] active:bg-[#ccc] transition duration-200 rounded shadow-md'
+                                       class='inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-[#1F2022] bg-[#eee] md:hover:bg-[#ccc] active:bg-[#ccc] transition duration-200 rounded shadow-md'
                                        aria-label='Schedule a call'
                                        title='Schedule a call'
                                     >
