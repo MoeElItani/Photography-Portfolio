@@ -32,7 +32,7 @@ const Hero = () => {
             <h3 className='text-[#00ADB5]  text-[80px] md:text-[100px] font-extrabold '>
                Jessie
             </h3>
-            <p className='text-[#aaa] md:text-[16px] w-[85%] md:w-[80%]'>
+            <p className='text-[#aaa] m-auto md:m-0 md:text-[16px] w-[85%] md:w-[80%]'>
                Amet minim mollit non deserunt ullamco est
                sit aliqua dolor do amet sint. Velit officia
                consequat duis enim velit mollit.
@@ -50,7 +50,7 @@ const Hero = () => {
                      View all
                   </p>
                </div>
-               <div className='flex overflow-hidden space-x-4'>
+               <div className='flex overflow-x-auto md:overflow-hidden space-x-4'>
                   <img
                      src={image2}
                      width='220px'
