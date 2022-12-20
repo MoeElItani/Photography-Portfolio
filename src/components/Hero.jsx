@@ -6,7 +6,7 @@ import image4 from '../assets/image4.png'
 const Hero = () => {
    return (
       <section
-         className='flex md:flex-row flex-col relative h-[100vh] bg-[#1F2022] bg-center md:bg-left-top  md:bg-contain bg-cover bg-no-repeat'
+         className='flex md:flex-row flex-col relative h-[100vh] bg-[#1F2022] bg-center md:bg-left-top  md:bg-contain bg-cover bg-no-repeat shadow-2xl'
          style={{
             backgroundPosition: 'center',
             backgroundImage: `url(${jessieIMG})`,
